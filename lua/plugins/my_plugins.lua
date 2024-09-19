@@ -1,6 +1,7 @@
 return {
   { "folke/zen-mode.nvim" },
   { "folke/twilight.nvim" },
+  { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
   {
     "Exafunction/codeium.vim",
     event = "BufEnter",
