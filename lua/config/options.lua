@@ -34,3 +34,9 @@ opt.tabstop = 4 -- num:  Number of spaces tabs count for
 -- [[ Splits ]]
 --opt.splitright = true -- bool: Place new window to right of current one
 --opt.splitbelow = true -- bool: Place new window below the current one
+
+-- [ line break settings]
+opt.linebreak = true
+opt.wrap = true
+opt.breakindent = true
+opt.breakindentopt = "shift:2" -- show continuations after a linebreak indented by this amount
